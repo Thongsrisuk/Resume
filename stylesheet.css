@@ -1,6 +1,6 @@
 /*content*/
 [class*="col-"] {
-    width: 100%;
+    width: 1000%;
        }
       @media only screen and (min-width: 600px) {
      /* For tablets: */
