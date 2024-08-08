@@ -1,19 +1,68 @@
 /*content*/
-@media  screen and (min-device-width: 100px) and (max-device-width: 1000px;) {
-   
-body{
-    font-size: 15px;
+@media screen and (min-width:100px) and (max-width:1000px) {
+body#main{
+    height: 1vh;
+}
+    div.content{
+        position: absolute;
+        align-self: baseline;
+        width: 90vw;
+        height: 500px;
+        
+    }
+    p#longp{
+        font-size: 3vw;
+        line-height: 10px
+}
+p#smallp{
+    font-size: 3vw;
+        line-height: 7px;
+        text-indent: 0;
+}
+p#ulp{
+    font-size: 4vw
+}
+h2#smallh{
+    font-size: 5vw;
+    width: 90%;
+    height: 2vh;
+    padding-top: 8px;
+}
+p#smallheadp{
+    top: 30%;
+    font-size: 5vw;
+}
+h1#head{
+    font-size: 7vw;
+    top: 0;
+}
+ul.flex-container{
+    top:80%;
+    left: 2%;
+    width: 95%;
+}
+li.flex-item{
+    margin-left: 0;
+    padding-left: 0;
+}
+img#image{
+    border-width: 2px;
+    width: 50px;
+}
+div.flex2box{
+      top: 18.5%;
 }
 }
-html,
-body {
+
+
+#main {
     background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     width: 80%;
-    height: 130%;
+    height: 170vh;
    margin-left: auto;
    margin-right: auto;
     padding: 0;
@@ -23,9 +72,9 @@ body {
 }
 
 .content {
-    align-self: auto;
+    align-self: center;
     width: 80%;
-    
+    margin-top: 0%;
     height: 80%;
    
     padding: 0px;
@@ -42,32 +91,39 @@ body {
     font-style: normal;
   }
   
-  p{
+  #smallheadp{
     position: absolute;
     font-size: 35px;
     top: 40%;
-    left: 6%;
+    left: 5%;
 }
-p1{
-    text-indent: 5em;
-    padding-left: 10px;
+#longp{
+    text-indent: 2em;
+    padding-left: 0px;
+    margin-left: 10px;
     line-height: 20px;
     font-size: 19px;
 }
-p2{
+#smallp{
+    text-indent: 2em;
+    padding-left: 0px;
+    line-height: 16px;
+    font-size: 19px;
+}
+#ulp{
     padding-left: 15px;
-    line-height: 20px;
+    line-height: 0px;
     font-size: 21px;
     
 }
 
-h1{
+#head{
     font-size: 50px;
     position: absolute;
 width: max-content;
 
 top: 15px;
-left: 40px;
+left: 5%;
 }
 h1::before{
     content: "";
@@ -79,15 +135,15 @@ h1::before{
     left: 0px    ;
     opacity: 0.3;
 }
-h2{    
+#smallh{    
     font-size: 35px;
     background: linear-gradient(to right,blue,rgb(0, 250, 21));
     width: 90%;
-    height: 35px;
+    height: 5.1vh;
   padding-top: 20px;
   margin-top: 0px;
   padding-left: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   margin-left: 5px;
     text-align: start;
     color: #f0f0f0;
@@ -97,9 +153,9 @@ h2{
 
 #image-box{
 position: absolute;
-width: 15%;
-top: 15%;
-right: 5%;
+width: 13%;
+top: 9%;
+right: 12%;
 }
 
 #image{
@@ -118,7 +174,7 @@ top: 0;
 .flex2box{
     position: absolute;
     width: 50%;
-    height: 63%;
+    height: 77.2%;
     bottom: 0;
     right: 0;
     background-color: #f0f0f0;
@@ -145,11 +201,11 @@ top: 0;
     background: #f0f0f0;
     width: 100%;
     height: 60%;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: 10px;
     padding-left: 20px;
-    margin-bottom: 10px;
-    line-height: 10px;
+    margin-bottom: 0px;
+    line-height: 5px;
     color: rgb(0, 0, 0);
     justify-content: center;
     justify-items: center;
