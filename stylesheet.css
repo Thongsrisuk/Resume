@@ -1,15 +1,21 @@
 /*content*/
-
+@media  screen and (min-device-width: 100px) and (max-device-width: 1000px;) {
+   
+body{
+    font-size: 15px;
+}
+}
 html,
 body {
     background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: scroll;
-    width: 210mm;
-    height: 297mm;
-    margin: auto;
+    background-attachment: fixed;
+    width: 80%;
+    height: 130%;
+   margin-left: auto;
+   margin-right: auto;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -22,7 +28,7 @@ body {
     
     height: 80%;
    
-    padding: 20px;
+    padding: 0px;
     box-sizing: border-box;
     background-color: #f0f0f0;
     
@@ -39,19 +45,20 @@ body {
   p{
     position: absolute;
     font-size: 35px;
-    top: 80px;
-    left: 40px;
+    top: 40%;
+    left: 6%;
 }
 p1{
-    text-indent: 2em;
+    text-indent: 5em;
     padding-left: 10px;
     line-height: 20px;
     font-size: 19px;
 }
 p2{
-    padding-left: 10px;
+    padding-left: 15px;
     line-height: 20px;
     font-size: 21px;
+    
 }
 
 h1{
@@ -66,30 +73,33 @@ h1::before{
     content: "";
     position:absolute;
     background: linear-gradient(to right, red, rgb(68, 0, 253));
-    width: 430px;
-    height: 7px;
-    top: 65px;
-    left:0px    ;
+    width: 100%;
+    height: 10%;
+    top: 105%;
+    left: 0px    ;
     opacity: 0.3;
 }
 h2{    
     font-size: 35px;
     background: linear-gradient(to right,blue,rgb(0, 250, 21));
-    width: 550px;
-    height: 40px;
-  padding-top: 25px;
+    width: 90%;
+    height: 35px;
+  padding-top: 20px;
   margin-top: 0px;
-  padding-left: 10px;
-  margin-bottom: 10px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  margin-left: 5px;
     text-align: start;
     color: #f0f0f0;
 }
 
 /* block */
+
 #image-box{
 position: absolute;
-top: 40px;
-right: 25px;
+width: 15%;
+top: 15%;
+right: 5%;
 }
 
 #image{
@@ -99,10 +109,10 @@ border-style: solid;
 
 .topbox{
  position: relative;
- width: 635px;
- height: 200px;
-left: -3.4%;
-top: -3%;
+ width: 100%;
+ height: 22%;
+left: 0;
+top: 0;
     background-color:#f0f0f0;
 }
 .flex2box{
@@ -116,7 +126,6 @@ top: -3%;
     
 }
 
-
 /* flex box*/
 
 .flex-container {
@@ -124,7 +133,7 @@ top: -3%;
     flex-flow: row wrap;
     justify-content: space-evenly;
     position: relative;
-    top: 180px;
+    top: 90%;
     left: 0;
     padding: 0;
     margin: 0;
@@ -134,11 +143,12 @@ top: -3%;
   .flex-item {
    position: relative;
     background: #f0f0f0;
-        padding-top: 0px;
-    width: 550px;
-    height: 200px;
+    width: 100%;
+    height: 60%;
     margin-top: 5px;
-    margin-left: -10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
     line-height: 10px;
     color: rgb(0, 0, 0);
     justify-content: center;
