@@ -10,7 +10,7 @@
   /* styles for tablet devices */
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     body {
-      scale: 1.2;
+ 
       width: 90%;
       margin: auto;
     }
@@ -19,11 +19,12 @@
   /* styles for mobile devices */
   @media only screen and (max-width: 767px) {
    body {
+            scale: 1.2;
         width: 100%;
         margin: auto;
       }
     .content {
-      width: 100vw;
+      width: 100%;
       margin: 0;
     }
   }
