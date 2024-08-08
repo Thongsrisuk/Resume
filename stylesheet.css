@@ -3,6 +3,10 @@
 html,
 body {
     background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
     width: 210mm;
     height: 297mm;
     margin: auto;
