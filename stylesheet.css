@@ -7,7 +7,7 @@ body#main{
         position: absolute;
         align-self: baseline;
         width: 90vw;
-        height: 500px;
+        height: 530px;
         
     }
     p#longp{
@@ -31,6 +31,11 @@ h2#smallh{
 p#smallheadp{
     top: 30%;
     font-size: 5vw;
+}
+    p.lineh{
+    
+        line-height: 20px;
+      
 }
 h1#head{
     font-size: 7vw;
