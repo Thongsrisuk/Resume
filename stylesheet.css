@@ -16,7 +16,7 @@ body#main{
 }
 p#smallp{
     font-size: 3vw;
-        line-height: 7px;
+        line-height: 8px;
         text-indent: 0;
 }
 p#ulp{
@@ -49,6 +49,9 @@ img#image{
     border-width: 2px;
     width: 50px;
 }
+    div#image-box{
+    top:4%;
+    }
 div.flex2box{
       top: 18.5%;
 }
