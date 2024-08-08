@@ -1,5 +1,5 @@
 /*content*/
-@media screen and (min-width:100px) and (max-width:1000px) {
+@media screen and (min-width:100px) and (max-width:700px) {
 body#main{
     height: 1vh;
 }
