@@ -1,0 +1,131 @@
+body{
+    background-image: url(picture4/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+       overflow: scroll;
+    display: flex;
+    width:100%;
+    height: 70rem;
+    margin: auto;
+}
+.content{
+    position: relative;
+    background-color:rgb(157, 207, 236);
+    width: 50%;
+    height: 70%;
+    align-self: center;
+    justify-self: center;
+  margin: auto;
+  margin-top: 1%;
+  border-radius: 5%;
+}
+.topbox{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color: #f0f0f0;
+text-align: center;
+line-height: 0.5rem;
+border-radius: 10%;
+}
+.conbox{
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 60%;
+    margin-left: 4%;
+background-color: blanchedalmond;
+}
+.rightbox{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 25%;
+    height: 45%;
+    line-height: 2rem;
+    
+}    
+.Table{
+    line-height: 1rem;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    font-size: 0.7rem;
+    }
+.line img{
+    width: 10%;
+    position: absolute;
+    top: 0%;
+    left: 3.6%;
+    
+}
+.tel img{
+    position: absolute;
+    width: 7%;
+    top: 20%;
+    left: 5%;
+}
+.map img{
+    position: absolute;
+    width: 7%;
+    border-radius: 10%;
+    top: 40%;
+    left: 5%;
+}
+.gmail img{
+    position: absolute;
+    width: 7%;
+    bottom: 30%;
+    left: 5%;
+    
+}
+.github img{
+    position: absolute;
+    width: 7%;
+    border-radius: 10%;
+    bottom: 10%;
+    left: 5%;
+}
+
+h1{
+    font-size: 3rem;
+    background:linear-gradient(to top, rgb(56, 143, 194), rgb(57, 3, 100));
+    padding: 5%;
+    margin-top: 0;
+    color: #f0f0f0;
+    border-radius: 5%;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 2rem;
+}
+
+#hide1{
+    position: absolute;
+    top: -5%;
+    right: 0%;
+}
+#b1{
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+#b2{
+    position: absolute;
+    bottom: 15%;
+    left: 39%;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+#b3{
+    position: absolute;
+    bottom: 15%;
+    left: 70%;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
