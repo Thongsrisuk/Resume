@@ -64,7 +64,20 @@ body{
    justify-content: space-around;
     position: absolute;
     bottom: -40vh;
-
+}
+#demopic{
+    width: 2.5rem;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+}
+.demove1{
+    right: 5%;
+    bottom: 0%;
+}
+.demove2{
+    right: 5%;
+    bottom: 0%;
 }
 
 /* Text */
@@ -164,7 +177,7 @@ body{
         }
     }
     div#demo::after{
-        content: "demo";
+        content:"";
         color: white;
         background: linear-gradient(to right ,blue, purple);
         width: max-content;
@@ -174,7 +187,7 @@ body{
         bottom: 5%; 
     }
     div#demo2::after{
-        content: "demo";
+        content: "";
         color: white;
         background: linear-gradient(to right ,blue, purple);
         width: max-content;
