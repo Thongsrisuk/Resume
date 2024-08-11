@@ -34,10 +34,7 @@ body{
 .flex-container{
     display: flex; 
     flex-flow: column ;
-    justify-content: space-around;
-   
-    
-    
+    justify-content: space-around;  
 }
 .flex-item{
     background-color: #bfb9c5;
@@ -54,7 +51,7 @@ body{
 }
 .bubble img{
     width: 50px;
-    animation: bubble 7s linear infinite;
+    animation: bubble 10s linear infinite;
 
 }
 .bubble{
@@ -81,162 +78,175 @@ body{
 }
 
 /* Text */
-    p{
-        position: relative;
-    }
-    strong{
-       font-size: 1.5rem;
-    }
-  #line::before{
-        content: "";
-        background: linear-gradient(to right ,green, blue);
-        width: 95%;
-        height: 6%;
-        position: absolute;
-       bottom: -10%;  
-    }
-    #line2::before{
-        content: "";
-        background: linear-gradient(to right ,blue, purple);
-        width: 95%;
-        height: 9%;
-        position: absolute;
-       bottom: -12%;  
-    }
-    #line3::before{
-        content: "";
-        background: linear-gradient(to right ,purple, green);
-        width: 95%;
-        height: 10%;
-        position: absolute;
-       bottom: -14%;  
-    }
-    
-    #b1{
-        position: relative;
-        left: 40%;
-    }
-    #b2{
-        position: relative;
-        left: 40%;
-    }
+p{
+    position: relative;
+}
+strong{
+    font-size: 1.5rem;
+}
+#line::before{
+    content: "";
+    background: linear-gradient(to right ,green, blue);
+    width: 95%;
+    height: 6%;
+    position: absolute;
+    bottom: -10%;  
+}
+#line2::before{
+    content: "";
+    background: linear-gradient(to right ,blue, purple);
+    width: 95%;
+    height: 9%;
+    position: absolute;
+    bottom: -12%;  
+}
+#line3::before{
+    content: "";
+    background: linear-gradient(to right ,purple, green);
+    width: 95%;
+    height: 10%;
+    position: absolute;
+    bottom: -14%;  
+}
+#b1{
+    position: relative;
+    left: 40%;
+}
+#b2{
+    position: relative;
+    left: 40%;
+}
 
     /* Animation */
-    @keyframes bubble{
-        0%{transform: translateY(0);
-        opacity: 0;}
-        25%{
-            opacity: 1;}
-        50%{
-          opacity: 1;}
-        75%{
-            opacity: 1;}
-        100%{transform: translateY(-80vh);
-            opacity: 0;}
-        }
-        .bubble img:nth-child(1){
+@keyframes bubble{
+    0%{transform: translateY(0);
+    opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    100%{transform: translateY(-100vh);
+    opacity: 0;}
+}
+.bubble img:nth-child(1){
     animation-delay: 5s;
-        }
-        .bubble img:nth-child(2){
-            animation-delay: 2s;
-        }
-        .bubble img:nth-child(3){
-            animation-delay: 1s;
-        }
-        .bubble img:nth-child(4){
-            animation-delay: 3s;
-        }
-        .bubble img:nth-child(5){
-            animation-delay: 7s;
-        }
-        .bubble img:nth-child(6){
-            animation-delay: 6s;  
-        }
-        .bubble img:nth-child(7){
-            animation-delay: 4s; 
-        }
-    @keyframes hidden{
-        2%{
-            opacity: 1;
-            transform: scale(2,2);
-        }
-        20%{
-            opacity: 1;
-        }
-        40%{
-            opacity: 1;
-        }
-        60%{
-            opacity: 1;
-        }
-        80%{
-            opacity: 1;
-        }
-        100%{
-            opacity: 1;
-        }
-    }
-    div#demo::after{
-        content:"";
-        color: white;
-        background: linear-gradient(to right ,blue, purple);
-        width: max-content;
-        height: max-content;
-        position: absolute;
-        right: 5%;
-        bottom: 5%; 
-    }
-    div#demo2::after{
-        content: "";
-        color: white;
-        background: linear-gradient(to right ,blue, purple);
-        width: max-content;
-        height: max-content;
-        position: absolute;
-        right: 5%;
-        bottom: 5%; 
-    }
-    .hidden1{
-        width: 4rem;
-        position: absolute;
-        right: 6.5%;
-        top: 43%;
-        z-index: 1;
-        opacity: 0;
-    }
-    .hidden2{
-        width: 4rem;
-        position: absolute;
-        top: 64%;
-        right: 6.5%;
-        z-index: 1;
-        opacity: 0;
-    }
-   
-    .hidden1:hover{
-        animation: hidden 60s ease-out infinite;
-    }
-    .hidden2:hover{
-        animation: hidden 60s ease-out infinite;
-    }
+}
+.bubble img:nth-child(2){
+    animation-delay: 2s;
+}
+.bubble img:nth-child(3){
+    animation-delay: 1s;
+}
+.bubble img:nth-child(4){
+    animation-delay: 3s;
+}
+.bubble img:nth-child(5){
+    animation-delay: 7s;
+}
+.bubble img:nth-child(6){
+    animation-delay: 6s;  
+}
+.bubble img:nth-child(7){
+    animation-delay: 4s; 
+}
+@keyframes hidden{
+    2%{opacity: 1;
+    transform: scale(2,2);
+}
+    20%{opacity: 1;
+}
+    40%{opacity: 1;
+}
+    60%{opacity: 1;
+}
+    80%{opacity: 1;
+}
+    100%{opacity: 1;
+}
+}
+div#demo::after{
+    content:"";
+    color: white;
+    background: linear-gradient(to right ,blue, purple);
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    right: 5%;
+    bottom: 5%; 
+}
+div#demo2::after{
+    content: "";
+    color: white;
+    background: linear-gradient(to right ,blue, purple);
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    right: 5%;
+    bottom: 5%; 
+}
+.hidden1{
+    width: 4rem;
+    position: absolute;
+    right: 6.5%;
+    top: 43%;
+    z-index: 1;
+    opacity: 0;
+}
+.hidden2{
+    width: 4rem;
+    position: absolute;
+    top: 64%;
+    right: 6.5%;
+    z-index: 1;
+    opacity: 0;
+}   
+.hidden1:hover{
+    animation: hidden 60s ease-out infinite;
+}
+.hidden2:hover{
+   animation: hidden 60s ease-out infinite;
+}
 
     /* meadia */
-    @media screen and (min-width:100px) and (max-width:700px){
-        .headbox{
-            font-size: 0.7rem;
-        }
-        .flex-item{
-            font-size: 0.4rem;
-        }
-        strong{
-            font-size: 0.5rem;
-        }
-        #b1{
-left: 25%;
-font-size: 0.5rem;
-        }
-        #b2{
-            left: 25%;
-            font-size: 0.5rem;
-                    }
-    }
+@media screen and (min-width:100px) and (max-width:700px){
+.headbox{
+    font-size: 0.7rem;
+}
+.flex-item{
+    font-size: 0.4rem;
+}
+strong{
+    font-size: 0.5rem;
+}
+#b1{
+    left: 25%;
+    font-size: 0.5rem; 
+}
+ #b2{
+    left: 25%;
+    font-size: 0.5rem;
+}
+body{
+    height: 50rem;
+}
+.hidden1{
+    top: 38%;
+    right: 0;
+}
+.hidden2{
+    top: 63%;
+    right: 0;
+}
+.bubble{
+    bottom: -150vh;
+ }
+ .bubble img{
+    width: 5%;
+ }
+ @keyframes bubble{
+   
+    100%{transform: translateY(-200vh);}
+ }
+ #demopic{
+    width: 1.5rem;
+}
+}
