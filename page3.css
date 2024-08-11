@@ -108,14 +108,11 @@ strong{
     position: absolute;
     bottom: -14%;  
 }
-#b1{
+.button{
     position: relative;
     left: 40%;
 }
-#b2{
-    position: relative;
-    left: 40%;
-}
+
 
     /* Animation */
 @keyframes bubble{
