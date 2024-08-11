@@ -130,6 +130,8 @@ h2{
     padding: 2%;
     font-size: 1.5rem;
 }
+
+/* Animation */
 @keyframes grow{
     0%{transform: scale(1,1);}
     50%{transform: scale(1.25,1.25);}
@@ -137,4 +139,33 @@ h2{
    }
 #hide1:hover{
     animation: grow 5s linear infinite;
+}
+
+/* media */
+@media screen and (min-width:100px) and (max-width:1000px){
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 0.75rem;
+    }
+    table tr th{
+font-size: 0.3rem;
+height: 0rem;
+    }
+    .conbox{
+        width: 90%;
+        height: 55%;
+    }
+    .content{
+        height: 20rem;
+    }
+    button{
+        height: max-content;
+        width: max-content;
+    }
+    #b1,#b2,#b3{
+        font-size: 0.5rem;
+
+    }
 }
