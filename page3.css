@@ -111,6 +111,7 @@ strong{
 .button{
     position: relative;
     left: 40%;
+    z-index: 5;
 }
 
 
