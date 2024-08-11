@@ -146,7 +146,7 @@ border-style: solid;
 .flex2box{
     position: absolute;
     width: 50%;
-    height: 77.2%;
+    height: 67.2%;
     bottom: -15%;
     line-height: 1.25rem;
     font-size: 1.25rem;
@@ -181,6 +181,7 @@ border-style: solid;
    position: relative;
     background: #f0f0f0;
     width: 90%;
+      height: 100%;
     margin-bottom: 5%;
     padding-bottom: 0;
     line-height: 1.1rem;
