@@ -181,7 +181,7 @@ border-style: solid;
    position: relative;
     background: #f0f0f0;
     width: 90%;
-      height: 100%;
+    height: 100%;
     margin-bottom: 5%;
     padding-bottom: 0;
     line-height: 1.1rem;
@@ -191,8 +191,3 @@ border-style: solid;
     text-align: start;
     font-size: 1.1rem;
   }
-
-
-
-
- 
