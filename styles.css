@@ -40,11 +40,12 @@ background-color: blanchedalmond;
 }
 .rightbox{
     position: absolute;
-    top: 25%;
-    right: 10%;
-    width: 25%;
-    height: 45%;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
     line-height: 2rem;
+   
     
 }    
 .Table{
@@ -104,8 +105,8 @@ h2{
 
 #hide1{
     position: absolute;
-    top: -5%;
-    right: 0%;
+    bottom:  -10%;
+    left: -15%;
 }
 #b1{
     position: absolute;
