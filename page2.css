@@ -42,7 +42,7 @@ overflow: scroll;
 }
 .flex-item{
     position: relative;
-    background: #ffff;
+    background: #f0f0f0;
     width: 80%;
    margin-bottom: 0;
     padding-bottom: 0;
@@ -71,29 +71,14 @@ overflow: scroll;
 
 }
 .button{
-   position: relative;
+   position: absolute;
    height: 7%;
-   top: 20%;
+   bottom: 0%;
+    left: 35%;
 
 
 }
-#b1{
-    position: absolute;
-width: 5rem;
-left: 35%;
 
-}
-#b2{
-    position: absolute;
-right: 35%;
-width: 5rem;
-}
-#b3{
-    position: absolute;
-width: 5rem;
-right: 45%;
-bottom: 0;
-}
 
 /* text*/
 table{
@@ -116,9 +101,10 @@ table{
     left:5.5%;
 }
 #header{
-    background-color: #eff0f9;
+    background-color: #2a354b;
     padding: 2%;
     width: 70%;
+    color: #f0f0f0;
 }
 span{
 font-weight: bold;    
@@ -243,27 +229,11 @@ right: 0%;
     top: 14%;
 }
 .button{
-    position: relative;
+    position: absolute;
     height: 7%;
-    top: 8%;
+   bottom: 0%;
+    left: 25%;
  
- 
- }
- #b1{
-     position: absolute;
- width: 3.6rem;
- left: 30%;
- 
- }
- #b2{
-     position: absolute;
- right: 30%;
- width: 3.6rem;
- }
- #b3{
-     position: absolute;
- width: 3.2rem;
- right: 40%;
- bottom: 0;
- }
 }
+ }
+
