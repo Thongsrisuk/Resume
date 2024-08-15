@@ -3,7 +3,7 @@
 div.button{
     position: absolute;
    bottom: 0% ;
-   left: 27%;  
+   left: 35%;  
 }
 div#image-box{
     position: absolute;
@@ -13,7 +13,7 @@ div#image-box{
     }
 div.content{
     width: 40rem;
-    height: 41rem;
+    height: 35rem;
 }
 p{
     font-size: 0.8em;
@@ -47,20 +47,17 @@ left: 5%;
 
 
 ul.flex-container{
-    top:0%;
+    top:120%;
     left: 0%;
     height: 100%;
 }
 img#image{
     border-width: 2px;
     width: 50px;
-    
-}
-div.flex2box{
-      top: 28%;
-}
+    }
+
 div.flex2box strong{
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 }
 
@@ -193,8 +190,3 @@ border-style: solid;
     text-align: start;
     font-size: 1.1rem;
   }
-
-
-
-
- 
