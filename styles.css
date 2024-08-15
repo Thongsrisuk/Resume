@@ -6,15 +6,13 @@ body{
     background-size: cover;
        overflow: scroll;
     display: flex;
-    width:100%;
-    height: 40rem;
     margin: auto;
 }
 .content{
     position: relative;
     background-color:rgb(157, 207, 236);
-    width: 50%;
-    height: 120%;
+    width: 40rem;
+    height: 50rem;
     align-self: center;
     justify-self: center;
   margin: auto;
@@ -48,13 +46,6 @@ background-color: blanchedalmond;
    
     
 }    
-.Table{
-    line-height: 1rem;
-    position: absolute;
-    top: 0%;
-    left: 15%;
-    font-size: 0.7rem;
-    }
 .line img{
     width: 10%;
     position: absolute;
@@ -89,20 +80,6 @@ background-color: blanchedalmond;
     bottom: 10%;
     left: 5%;
 }
-
-h1{
-    font-size: 3rem;
-    background:linear-gradient(to top, rgb(56, 143, 194), rgb(57, 3, 100));
-    padding: 5%;
-    margin-top: 0;
-    color: #f0f0f0;
-    border-radius: 5%;
-    margin-bottom: 0;
-}
-h2{
-    font-size: 2rem;
-}
-
 #hide1{
     position: absolute;
     bottom:  -10%;
@@ -151,6 +128,25 @@ h2{
     border-width: 5px;
 
 }
+.Table{
+    line-height: 1rem;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    font-size: 0.8rem;
+    }
+h1{
+    font-size: 3rem;
+    background:linear-gradient(to top, rgb(56, 143, 194), rgb(57, 3, 100));
+    padding: 5%;
+    margin-top: 0;
+    color: #f0f0f0;
+    border-radius: 5%;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 2rem;
+}
 
 /* Animation */
 @keyframes grow{
@@ -165,28 +161,26 @@ h2{
 /* media */
 @media screen and (min-width:100px) and (max-width:1000px){
     h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     h2{
-        font-size: 0.75rem;
+        font-size: 1.5rem;
     }
     table tr th{
-font-size: 0.3rem;
-height: 0rem;
+font-size: 0.5rem;
+height: 2.3rem;
     }
     .conbox{
         width: 90%;
         height: 55%;
     }
     .content{
-        height: 20rem;
+        width: 40rem;
+        height: 35rem;
     }
     button{
         height: max-content;
         width: max-content;
     }
-    #b1,#b2,#b3{
-        font-size: 0.5rem;
 
-    }
 }
